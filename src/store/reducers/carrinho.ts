@@ -4,6 +4,7 @@ import { Produto } from '../../App'
 type CarrinhoEstado = {
   itens: Produto[]
 }
+
 const initialState: CarrinhoEstado = {
   itens: []
 }

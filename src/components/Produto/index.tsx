@@ -1,7 +1,6 @@
 import { useDispatch } from 'react-redux'
 import { Produto as ProdutoType } from '../../App'
 import * as S from './styles'
-
 import { adicionar } from '../../store/reducers/carrinho'
 import { favoritar } from '../../store/reducers/favorito'
 import { useState } from 'react'
@@ -18,6 +17,7 @@ export const paraReal = (valor: number) =>
 const ProdutoComponent = ({ produto }: Props) => {
   const dispatch = useDispatch()
   const [estaFavoritado, setEstaFavoritado] = useState(false)
+
   return (
     <S.Produto>
       <S.Capa>

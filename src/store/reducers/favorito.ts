@@ -1,5 +1,4 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
-
 import { Produto } from '../../App'
 
 type FavoritoState = {
@@ -27,5 +26,4 @@ const favoritoSlice = createSlice({
 })
 
 export const { favoritar } = favoritoSlice.actions
-
 export default favoritoSlice.reducer

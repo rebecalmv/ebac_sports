@@ -1,5 +1,5 @@
 import Produto from '../components/Produto'
-import { useGetProdutosQuery } from '../server/api'
+import { useGetProdutosQuery } from '../servers/api'
 
 import * as S from './styles'
 
